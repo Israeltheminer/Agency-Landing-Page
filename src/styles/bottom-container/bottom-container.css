@@ -1,0 +1,44 @@
+.bottom_container{
+   background-color: hsl(167, 41%, 68%);
+   color: hsl(167, 40%, 24%);
+   text-align: center;
+   padding: 4rem;
+   display: grid;
+}
+
+.contact_box {
+   display: flex;
+   justify-content: center;
+   gap: 2rem;
+   margin: 4rem auto;
+   & a{
+      color: hsl(167, 40%, 24%);
+      text-decoration: none;
+   }
+   & a:hover{
+      color: #fff;
+   }
+}
+
+.social_box{
+   display: flex;
+   justify-content: center;
+   gap: 1rem;
+   padding: 2rem auto;
+   & .social_icon:hover{
+      fill: #fff;
+   }
+}
+
+.attribution { 
+   font-size: 11px; 
+   text-align: center;
+   background-color: hsl(167, 41%, 68%);
+   display: flex;
+   justify-content: center;
+   padding-bottom: 1rem;
+   gap: 2rem;
+   & a { 
+      color: hsl(0, 0%, 100%);
+   }
+}

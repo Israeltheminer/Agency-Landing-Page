@@ -1,0 +1,10 @@
+.middle-conatainer{
+   margin: 0;
+}
+
+.base_text{
+   font-size: 0.95rem;
+   color: hsl(213, 9%, 39%);
+   opacity: 75%;
+   line-height: 1.5;
+}
