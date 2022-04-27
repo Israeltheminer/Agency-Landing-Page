@@ -1,6 +1,6 @@
 .top_container{
    background-color: rgb(62,191,255);
-   background-image: url(/dist/images/desktop/image-header.jpg);
+   background-image: url(./dist/images/desktop/image-header.jpg);
    background-size: 100%;
    background-position: bottom;
    padding: 3rem 6.5% 0;
@@ -11,7 +11,7 @@
 
 @media (max-width: 500px){
    .top_container{
-      background-image: url(/dist/images/mobile/image-header.jpg);
+      background-image: url(./dist/images/mobile/image-header.jpg);
       padding-bottom: 6rem;
    }
    .arrow_image{
