@@ -5,5 +5,7 @@ module.exports = {
       require('autoprefixer'),
       require('cssnano'),
       require('postcss-preset-env')({stage: 1}),
+      require('tailwindcss/nesting'),
+      require('tailwindcss'),
     ]
 }

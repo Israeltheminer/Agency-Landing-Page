@@ -1,3 +1,11 @@
 body{
    margin: 0;
 }
+
+.hide{
+   display: none;
+}
+
+.show{
+   visibility: visible;
+}

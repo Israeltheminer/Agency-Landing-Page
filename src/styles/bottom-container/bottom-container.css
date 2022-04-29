@@ -2,14 +2,14 @@
    background-color: hsl(167, 41%, 68%);
    color: hsl(167, 40%, 24%);
    text-align: center;
-   padding: 4rem;
+   padding: 4rem 10%;
    display: grid;
 }
 
 .contact_box {
    display: flex;
    justify-content: center;
-   gap: 2rem;
+   gap: 10%;
    margin: 4rem auto;
    & a{
       color: hsl(167, 40%, 24%);
@@ -25,9 +25,6 @@
    justify-content: center;
    gap: 1rem;
    padding: 2rem auto;
-   & .social_icon:hover{
-      fill: #fff;
-   }
 }
 
 .attribution { 

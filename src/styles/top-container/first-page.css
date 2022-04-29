@@ -1,34 +1,9 @@
-.first_page{
-   height: 30rem;
-}
-
 .first_page .heading_box {
-   margin: 5rem auto;
+   margin: 3.5rem auto;
 }
 
-@media (max-width: 1000px){
-   .first_page{
-      height: 28rem;
-   }
-}
-@media (max-width: 850px){
-   .first_page{
-      height: 25rem;
-   }
-}
-@media (max-width: 700px){
-   .first_page{
-      height: 21rem;
-   }
-   .first_page .heading_box {
-      margin: 3rem auto;
-   }
-}
-@media (max-width: 600px){
-   .first_page{
-      height: 18rem;
-   }
-   .first_page .heading_box {
-      margin: 2.8rem auto;
-   }
+.arrow_image{
+   padding-bottom: 25%;
+   width: 4%;
+   margin: auto;
 }
