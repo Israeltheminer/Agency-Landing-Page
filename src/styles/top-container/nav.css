@@ -9,10 +9,17 @@
    width: 10rem;
 }
 
-.hamburger{
-   width: 85%;
+.hamburger_button{
+   & :hover{
+      background-color: #98ddff;
+   }
 }
 
+.hamburger{
+   width: 95%;
+   padding: 0.5rem;
+   border-radius: 7.5px;
+}
 .nav_link{
    display: flex;
    justify-content: center;
@@ -50,8 +57,11 @@
 
    & a{
       width: 6.25rem;
-      height: 1.8rem;
+      height: 2.25rem;
       margin: auto;
+      display: flex;
+      align-content: center;
+      justify-content: center;
       border-radius: 20px;
    }
 
