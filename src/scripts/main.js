@@ -1,5 +1,5 @@
 var $ = require( "jquery" );
 
-$("body").on("click", $(".hamburger"),()=>{
+$(".nav_bar").on("click", $(".hamburger"),()=>{
    $(".mobile_menu").toggleClass("hidden")
 });
