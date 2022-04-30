@@ -20,10 +20,10 @@
 }
 
 .image_transform{
-   background-image: url(/dist/images/desktop/image-transform.jpg);
+   background-image: url(../images/desktop/image-transform.jpg);
 }
 .image_stand{
-   background-image: url(/dist/images/desktop/image-stand-out.jpg);
+   background-image: url(../images/desktop/image-stand-out.jpg);
 }
 .transform_link:hover{
    text-decoration: underline solid #fed201 6.5px;
@@ -51,14 +51,14 @@
    padding-top: 55%;
 }
 .bottom_box:nth-of-type(1){
-   background-image: url(/dist/images/desktop/image-graphic-design.jpg);
+   background-image: url(../images/desktop/image-graphic-design.jpg);
    & h3{
       color: hsl(167, 40%, 24%);
    }
 }
 
 .bottom_box:nth-of-type(2){
-   background-image: url(/dist/images/desktop/image-photography.jpg);
+   background-image: url(../images/desktop/image-photography.jpg);
    & h3{
       color: hsl(198, 62%, 26%);
    }
