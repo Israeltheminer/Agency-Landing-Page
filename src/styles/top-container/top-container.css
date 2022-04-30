@@ -10,7 +10,40 @@
    position: relative;
 }
 
-@media (max-width: 500px){
+.mobile_menu{
+   padding: 2rem 4rem 2rem;
+   color: black;
+   z-index: 2;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.medium_menu{
+   gap: 2rem;
+
+   & a{
+      width: 6.25rem;
+      height: 2.25rem;
+      margin: auto;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      border-radius: 20px;
+   }
+
+   & a:hover{
+      background-color: hsl(51, 100%, 49%);
+   }
+}
+
+@media (max-width: 650px){
+   .top_container{
+      padding-bottom: 4rem;
+   }
+}
+
+@media (max-width: 550px){
    .top_container{
       background-image: url(../images/mobile/image-header.jpg);
       padding-bottom: 7.5rem;

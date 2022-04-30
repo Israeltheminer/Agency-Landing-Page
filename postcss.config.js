@@ -7,5 +7,6 @@ module.exports = {
       require('postcss-preset-env')({stage: 1}),
       require('tailwindcss/nesting'),
       require('tailwindcss'),
+      require('postcss-uncss')({html: ['index.html']}),
     ]
 }
